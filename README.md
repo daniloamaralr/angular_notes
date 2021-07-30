@@ -40,7 +40,7 @@
 * @NgModuyle has declarations. This is where you can declare new components to be used
 * Added components need to be imported into the module
 * 'imports' in @NgModule let's you import other modules into this one. To make this one a bit leaner and outsource some stuff
-* You can create components using the cli with 'ng generate component name'. This creates the folder structure within the app folder with the component files
+* You can create components using the cli with **'ng generate component name'** or **'ng g c name'**. This creates the folder structure within the app folder with the component files
 * You can nest components by calling their selector in a html template, and then calling the component to which that html belongs again in another component
 * Each component has to have a template or a templateUrl defined. Depending if you want a seperate template or inline templateUrl. Styles and selectors are optional, but template/templateUI isn't
 * Styles can be defined inline or externally by using styleUrls. StyleUrls is an array so you can use multiple external stylesheets
